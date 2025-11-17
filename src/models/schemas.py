@@ -13,3 +13,13 @@ class FeedbackResponse(BaseModel):
     feedback: str
     cover_letter_suggestion: str
     resume_Improvement: str
+
+
+class ApplicationStateSchema(BaseModel):
+    resume: str
+    job_description: str
+    job_requirements: str = ""
+    resume_skills: str = ""
+    feedback: str = ""
+    cover_letter_suggestion: str = ""
+    resume_improvements: str = ""

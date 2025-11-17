@@ -10,7 +10,7 @@ load_dotenv()
 
 class Settings:
     # OpenAI API Key
-    opneai_api_key: str = os.getenv("OPENAI_API_KEY")
+    openai_api_key: str = os.getenv("OPENAI_API_KEY")
 
 
 # Instantiate settings
